@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import ColorButton from './components/ColorButton';
+import ColorPreview from './components/colorPreview';
 
 function App() {
   const [color, setcolor] = useState(null);
   let colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
 
   return (
+    <>
     <div className="card">
       <h1 className='center'>Color Palette Picker</h1>
       <p className='center'>Pick a color to preview it below</p>
@@ -21,8 +23,10 @@ function App() {
           />
         ))}
       </ul>
-
     </div>
+    <ColorPreview color={color} setcolor={setcolor} />
+
+     </>
   );
 }
 
