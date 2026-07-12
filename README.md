@@ -18,7 +18,7 @@ It allows users to pick colors from a list, preview them instantly inside a dyna
 
 ## 📸 Screenshot
 
-![Color Picker Screenshot](src/screenshots/screenshot_loclahost.png)
+![Color Picker Screenshot](screenshots/screenshot_loclahost.png)
 
 ---
 
