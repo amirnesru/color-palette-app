@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ColorButton from './components/ColorButton';
 import ColorPreview from './components/colorPreview';
 
+
 function App() {
   const [color, setcolor] = useState(null);
   let colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
